@@ -9,7 +9,7 @@ typedef struct student {
 } Student;
 int main() {
     FILE* fptr;
-    fptr = fopen("students.txt", "w");
+    fptr = fopen("35-36-students.txt", "w");
     if(fptr == NULL) {
         printf("File not opened\n");
     }
