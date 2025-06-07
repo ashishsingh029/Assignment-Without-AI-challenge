@@ -1,4 +1,4 @@
-public class Main {
+public class Q22 {
     public static void main(String args[]) {
         ProducerConsumerMultiThread producerConsumerMultiThread = new ProducerConsumerMultiThread();
         Thread producerThread = new Thread(new Runnable() {
